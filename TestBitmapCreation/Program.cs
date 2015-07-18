@@ -15,11 +15,13 @@ namespace TestBitmapCreation
     {
         static void Main(string[] args)
         {
-            var imageGenerator = new TextImageGenerator();
-            imageGenerator.SaveAsJpg("imageJPEG.jpeg", "This is sample text");
-            imageGenerator.SaveAsPng("imagePNG.png", "This is sample text");
-            imageGenerator.SaveAsGif("imageGIF.gif", "This is sample text");
-            imageGenerator.SaveAsBmp("imageBMP.bmp", "This is sample text");
+            var imageGenerator = new TextImageGenerator(Color.Orange, Color.Black, "Algerian", 20, 55);
+            // var imageText = "In dwelling, live close to the ground.\nIn thinking, keep to the simple.\nIn conflict, be fair and generous.\nIn governing, don't try to control.\nIn work, do what you enjoy.\nIn family life, be completely present.";
+            var imageText = "Now you can create\nTEXT IMAGES WITH C#!";
+            imageGenerator.SaveAsJpg("imageJPEG.jpeg", imageText);
+            imageGenerator.SaveAsPng("imagePNG.png", imageText);
+            imageGenerator.SaveAsGif("imageGIF.gif", imageText);
+            imageGenerator.SaveAsBmp("imageBMP.bmp", imageText);
             //var colorConverter = new ColorConverter();
             //Color color = (Color)colorConverter.ConvertFromString("#000000");
             // base64 strings, useful for REST services

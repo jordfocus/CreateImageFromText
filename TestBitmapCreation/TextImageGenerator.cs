@@ -9,6 +9,12 @@ using System.Text;
 
 namespace ImageGenerator
 {
+    // <copyright file="TextImageGenerator.cs" company="dotjord.wordpress.com">
+    // Free to use
+    // </copyright>
+    // <author>Jordan Atanasovski</author>
+    // <date>07/18/2015 11:39:58 AM </date>
+    // <summary>Class that enables you to create images from text</summary>
     public class TextImageGenerator
     {
         private Color TextColor { get; set; }
