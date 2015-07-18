@@ -1,0 +1,11 @@
+TestBitmapCreation/bin/Debug/imageBMP.bmp
+TestBitmapCreation/bin/Debug/imageGIF.gif
+*.jpeg
+TestBitmapCreation/bin/Debug/imagePNG.png
+*.dll
+TestBitmapCreation/bin/Debug/TestBitmapCreation.pdb
+*.exe
+TestBitmapCreation/bin/Debug/TestBitmapCreation.vshost.exe.manifest
+TestBitmapCreation/obj/Debug/TestBitmapCreation.pdb
+*.cache
+TestBitmapCreation/obj/Debug/TestBitmapCreation.csproj.FileListAbsolute.txt
