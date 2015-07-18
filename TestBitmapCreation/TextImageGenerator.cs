@@ -16,7 +16,7 @@ namespace ImageGenerator
         private Font Font { get; set; }
         private int Padding { get; set; }
         private int FontSize { get; set; }
-
+         
         public TextImageGenerator(Color textColor, Color backgroundColor, string font, int padding, int fontSize)
         {
             TextColor = textColor;
