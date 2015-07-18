@@ -33,11 +33,11 @@ namespace ImageGenerator
             // Create graphics for rendering 
             Graphics retBitmapGraphics = Graphics.FromImage(new Bitmap(1, 1));
             // measure needed width for the image
-            var intWidth = (int)retBitmapGraphics.MeasureString(text, Font).Width;
+            var bitmapWidth = (int)retBitmapGraphics.MeasureString(text, Font).Width;
             // measure needed height for the image
-            var intHeight = (int)retBitmapGraphics.MeasureString(text, Font).Height;
+            var bitmapHeight = (int)retBitmapGraphics.MeasureString(text, Font).Height;
             // Create the bitmap with the correct size and add padding
-            Bitmap retBitmap = new Bitmap(intWidth + Padding, intHeight + Padding);
+            Bitmap retBitmap = new Bitmap(bitmapWidth + Padding, bitmapHeight + Padding);
             // Add the colors to the new bitmap.
             retBitmapGraphics = Graphics.FromImage(retBitmap);
             // Set Background color
