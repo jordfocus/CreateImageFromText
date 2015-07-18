@@ -1,6 +1,0 @@
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\bin\Debug\TestBitmapCreation.exe
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\bin\Debug\TestBitmapCreation.pdb
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\obj\Debug\TestBitmapCreation.csprojResolveAssemblyReference.cache
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\obj\Debug\TestBitmapCreation.exe
-D:\Projects\GitHub\CreateImageFromText\TestBitmapCreation\obj\Debug\TestBitmapCreation.pdb
